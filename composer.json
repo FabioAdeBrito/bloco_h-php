@@ -1,0 +1,29 @@
+{
+    "name": "fabioadebrito/bloco_h-php",
+    "description": "bloco_h-php",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Fábio A. de Brito",
+            "email": "fabioadebrito@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "2.0.*"
+    }
+    
+    
+}
