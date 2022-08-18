@@ -22,7 +22,11 @@
         ]
     },
     "require": {
-        "coffeecode/datalayer": "2.0.*"
+        "coffeecode/datalayer": "2.0.*",
+        "dompdf/dompdf": "0.8.*",
+        "league/csv": "9.8.0",
+        "coffeecode/router": "2.0.*",
+        "nfephp-org/nfephp": "4.0.70"
     }
     
     
